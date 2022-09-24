@@ -71,7 +71,7 @@ context('Actions', () => {
         talkexpertPage.fillUserForm(randomdata.randomstring(10), randomdata.randomstring(10), randomdata.makeEmail(), phon, website, randomdata.randomstring(100))
         talkexpertPage.validatMessageExpect().should('have.text', "Thanks for Reaching Out!")
     })
-    it('Products section check', () => {
+    it.only('Products section check', () => {
         productsPage.selectProductsMenu()
         productsPage.validatMessageExpect().should('have.text', "Products")
     })

@@ -7,6 +7,7 @@
     "cypress-real-events": "^1.7.1"
   },
   "scripts": {
+    "cy:run": "DEBUG=allure-plugin* npx cypress run --config specPattern=cypress/e2e/examples/* --env allure=true --browser chrome",
     "allure:generate": "npx allure generate ./allure-results --clean",
     "allure:open": "npx allure open ./allure-report",
     "posttest": "npm run allure:generate"

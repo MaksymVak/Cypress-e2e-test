@@ -14,6 +14,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Cypress run
+      continue-on-error: true
+      run: npm run cy:run
       uses: cypress-io/github-action@v4
       with:
         browser: chrome
