@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://MaksymVak.github.io/Cypress-e2e-test",
+  "buildOrder" : 8,
+  "buildName" : "GitHub Actions Run #3118136818",
+  "buildUrl" : "https://github.com/MaksymVak/Cypress-e2e-test/actions/runs/3118136818",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/8/"
+} ]

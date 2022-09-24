@@ -1,0 +1,135 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Registration on the website with invalid email",
+    "uid" : "4e7cfdd1128d524c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1664018670783,
+      "stop" : 1664018684864,
+      "duration" : 14081
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Registration on the website with valid email",
+    "uid" : "534044cb4dc6a6d3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1664018684932,
+      "stop" : 1664018711690,
+      "duration" : 26758
+    },
+    "flaky" : true,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Authorization on the website",
+    "uid" : "7d629fd7c9b60e20",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1664018711732,
+      "stop" : 1664018726386,
+      "duration" : 14654
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Password reset",
+    "uid" : "61813f3ce8d75d57",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1664018726485,
+      "stop" : 1664018735251,
+      "duration" : 8766
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Voice Api section check",
+    "uid" : "27827d2abbc23810",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1664018735281,
+      "stop" : 1664018745756,
+      "duration" : 10475
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Careers section check",
+    "uid" : "2501fc5db1f3e87a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1664018745793,
+      "stop" : 1664018751766,
+      "duration" : 5973
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Checking the Savings Calculator",
+    "uid" : "f436f72338fbe87d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1664018751801,
+      "stop" : 1664018758995,
+      "duration" : 7194
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Checking the Marketplace",
+    "uid" : "2282aa09d5813a88",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1664018759036,
+      "stop" : 1664018766700,
+      "duration" : 7664
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Sending a message using a function Talk to an expert",
+    "uid" : "a2f2a7e5894393f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1664018766772,
+      "stop" : 1664018778393,
+      "duration" : 11621
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Products section check",
+    "uid" : "aaa14583ecaaa32b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1664018778621,
+      "stop" : 1664018786183,
+      "duration" : 7562
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
