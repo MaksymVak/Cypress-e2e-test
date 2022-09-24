@@ -11,6 +11,6 @@ e2e test for Cypress v10.. with usage Allure Plugin.  View <a href="https://maks
 
 ### How to run the tests on windows
 
-Running Tests "npm run test"
-Creating a report "npm run allure:report"
-Open a report "allure open"
+- Running Tests "npm run test"
+- Creating a report "npm run allure:report"
+- Open a report "allure open"
