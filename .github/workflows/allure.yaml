@@ -1,5 +1,6 @@
 name: allure-report
 'on':
+    workflow_dispatch:
     push:
         branches:
             - main
