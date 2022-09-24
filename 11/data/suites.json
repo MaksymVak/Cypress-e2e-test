@@ -1,0 +1,139 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Actions",
+    "children" : [ {
+      "name" : "TC-01 Registration on the website with invalid email",
+      "uid" : "6af66f43f2cb1635",
+      "parentUid" : "e4eb7c6362a258d35885a68faf6e31c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664020234133,
+        "stop" : 1664020246999,
+        "duration" : 12866
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-02 Registration on the website with valid email",
+      "uid" : "3d3471f399114f7d",
+      "parentUid" : "e4eb7c6362a258d35885a68faf6e31c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664020247094,
+        "stop" : 1664020262565,
+        "duration" : 15471
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-03 Authorization on the website",
+      "uid" : "1d7d626875fdf659",
+      "parentUid" : "e4eb7c6362a258d35885a68faf6e31c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664020262640,
+        "stop" : 1664020275412,
+        "duration" : 12772
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-04 Password reset",
+      "uid" : "e66ebfbe2a26ef9f",
+      "parentUid" : "e4eb7c6362a258d35885a68faf6e31c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664020275487,
+        "stop" : 1664020281383,
+        "duration" : 5896
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-05 Voice Api section check",
+      "uid" : "e4428479757c6713",
+      "parentUid" : "e4eb7c6362a258d35885a68faf6e31c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664020281394,
+        "stop" : 1664020287995,
+        "duration" : 6601
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-06 Careers section check",
+      "uid" : "a3b35f5b61d4cb34",
+      "parentUid" : "e4eb7c6362a258d35885a68faf6e31c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664020288020,
+        "stop" : 1664020292536,
+        "duration" : 4516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-07 Checking the Savings Calculator",
+      "uid" : "8440d65b171e1f87",
+      "parentUid" : "e4eb7c6362a258d35885a68faf6e31c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664020292556,
+        "stop" : 1664020302122,
+        "duration" : 9566
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-08 Checking the Marketplace",
+      "uid" : "f2503bdc3940612e",
+      "parentUid" : "e4eb7c6362a258d35885a68faf6e31c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664020302185,
+        "stop" : 1664020308827,
+        "duration" : 6642
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-09 Sending a message using a function Talk to an expert",
+      "uid" : "ba3ed47c6119fd45",
+      "parentUid" : "e4eb7c6362a258d35885a68faf6e31c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664020308877,
+        "stop" : 1664020319041,
+        "duration" : 10164
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-10 Products section check",
+      "uid" : "2c6d989fa71ccf14",
+      "parentUid" : "e4eb7c6362a258d35885a68faf6e31c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664020319156,
+        "stop" : 1664020323685,
+        "duration" : 4529
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e4eb7c6362a258d35885a68faf6e31c7"
+  } ],
+  "name" : "suites"
+}
