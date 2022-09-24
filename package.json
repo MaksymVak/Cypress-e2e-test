@@ -7,10 +7,9 @@
     "cypress-real-events": "^1.7.1"
   },
   "scripts": {
-    "test": "DEBUG=allure-plugin* npx cypress run --config specPattern=cypress/e2e/* --env allure=true --browser chrome",
-    "allure:generate": "npx allure generate ./allure-results --clean",
-    "allure:open": "npx allure open ./allure-report",
-    "posttest": "npm run allure:generate",
+    "test": "npx cypress run --browser chrome --env allure=true",
+    "cy:test": "DEBUG=allure-plugin* npx cypress run --config specPattern=cypress/e2e/* --env allure=true --browser chrome",
+    "allure:open": "npx allure open",
     "allure:report": "allure generate allure-results --clean -o allure-report",
     "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true",
     "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true"
