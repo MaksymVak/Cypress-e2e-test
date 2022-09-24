@@ -1,1 +1,294 @@
-{ }
+{
+  "adc6a612967322440b36778f8c7c12ab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "730d27af9d19c5b2",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/3//#testresult/730d27af9d19c5b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014632673,
+        "stop" : 1664014638819,
+        "duration" : 6146
+      }
+    }, {
+      "uid" : "2e51bcfd93e762ea",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/2//#testresult/2e51bcfd93e762ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014329307,
+        "stop" : 1664014335170,
+        "duration" : 5863
+      }
+    } ]
+  },
+  "05bb03caa1b0981d96fa5d7b853b842f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "88b85788226f254",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/3//#testresult/88b85788226f254",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014592832,
+        "stop" : 1664014606051,
+        "duration" : 13219
+      }
+    }, {
+      "uid" : "85cad9463dadb7af",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/2//#testresult/85cad9463dadb7af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014288371,
+        "stop" : 1664014302113,
+        "duration" : 13742
+      }
+    } ]
+  },
+  "47797a845f45d4065ed7a1695c54c097" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "36d5727e7ee21af0",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/3//#testresult/36d5727e7ee21af0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014638857,
+        "stop" : 1664014649450,
+        "duration" : 10593
+      }
+    }, {
+      "uid" : "719fdfd5598242a6",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/2//#testresult/719fdfd5598242a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014335202,
+        "stop" : 1664014347100,
+        "duration" : 11898
+      }
+    } ]
+  },
+  "ad6cd5ed2dc4b0d669e5bc0cea177136" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "10a2b424ee2bcba5",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/3//#testresult/10a2b424ee2bcba5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014553216,
+        "stop" : 1664014566541,
+        "duration" : 13325
+      }
+    }, {
+      "uid" : "3419fc3911e53a41",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/2//#testresult/3419fc3911e53a41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014249241,
+        "stop" : 1664014262190,
+        "duration" : 12949
+      }
+    } ]
+  },
+  "3dd72f6199447cd567e00259ca304711" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "88c9ccb2849dc49b",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/3//#testresult/88c9ccb2849dc49b",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 20000ms: expected '<h1.Text-sc-5o8owa-0.sc-1e9319a3-4.gkWopw.gjiitA>' to have text 'We\\'ve sent you an email to activate your account', but the text was 'Create a free account'",
+      "time" : {
+        "start" : 1664014566637,
+        "stop" : 1664014592770,
+        "duration" : 26133
+      }
+    }, {
+      "uid" : "e02761148e24e3d3",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/2//#testresult/e02761148e24e3d3",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 20000ms: expected '<h1.Text-sc-5o8owa-0.sc-1e9319a3-4.gkWopw.gjiitA>' to have text 'We\\'ve sent you an email to activate your account', but the text was 'Create a free account'",
+      "time" : {
+        "start" : 1664014262238,
+        "stop" : 1664014288324,
+        "duration" : 26086
+      }
+    } ]
+  },
+  "b7fae3d9d6881bc4da4dc8786360eab3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d26a50f39b8fe32d",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/3//#testresult/d26a50f39b8fe32d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014620922,
+        "stop" : 1664014625798,
+        "duration" : 4876
+      }
+    }, {
+      "uid" : "4d93e50a64efed2b",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/2//#testresult/4d93e50a64efed2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014317316,
+        "stop" : 1664014322742,
+        "duration" : 5426
+      }
+    } ]
+  },
+  "f7515ff202a9d6fc1eab048cd455dd3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "12426486a31140e5",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/3//#testresult/12426486a31140e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014612670,
+        "stop" : 1664014620867,
+        "duration" : 8197
+      }
+    }, {
+      "uid" : "4c115cfa0091d208",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/2//#testresult/4c115cfa0091d208",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014308527,
+        "stop" : 1664014317266,
+        "duration" : 8739
+      }
+    } ]
+  },
+  "7acd2029f7d91f3031e1f7791d65001f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "cc06c60f911e7474",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/3//#testresult/cc06c60f911e7474",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014625826,
+        "stop" : 1664014632620,
+        "duration" : 6794
+      }
+    }, {
+      "uid" : "b13f905974e4a77e",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/2//#testresult/b13f905974e4a77e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014322800,
+        "stop" : 1664014329249,
+        "duration" : 6449
+      }
+    } ]
+  },
+  "0b3dd623b3ed8c7f25c9f405683a0db5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "77815b9709160c5",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/3//#testresult/77815b9709160c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014649598,
+        "stop" : 1664014654259,
+        "duration" : 4661
+      }
+    }, {
+      "uid" : "6458658326aa7071",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/2//#testresult/6458658326aa7071",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014347222,
+        "stop" : 1664014351736,
+        "duration" : 4514
+      }
+    } ]
+  },
+  "1ec4ca486a3cebba985d328fddcdd96b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "5daf60e0796f8a57",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/3//#testresult/5daf60e0796f8a57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014606108,
+        "stop" : 1664014612648,
+        "duration" : 6540
+      }
+    }, {
+      "uid" : "87e1cdf3f98ae711",
+      "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/2//#testresult/87e1cdf3f98ae711",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664014302152,
+        "stop" : 1664014308504,
+        "duration" : 6352
+      }
+    } ]
+  }
+}

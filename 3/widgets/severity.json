@@ -1,1 +1,101 @@
-[ ]
+[ {
+  "uid" : "10a2b424ee2bcba5",
+  "name" : "Registration on the website with invalid email",
+  "time" : {
+    "start" : 1664014553216,
+    "stop" : 1664014566541,
+    "duration" : 13325
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77815b9709160c5",
+  "name" : "Products section check",
+  "time" : {
+    "start" : 1664014649598,
+    "stop" : 1664014654259,
+    "duration" : 4661
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "730d27af9d19c5b2",
+  "name" : "Checking the Marketplace",
+  "time" : {
+    "start" : 1664014632673,
+    "stop" : 1664014638819,
+    "duration" : 6146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12426486a31140e5",
+  "name" : "Voice Api section check",
+  "time" : {
+    "start" : 1664014612670,
+    "stop" : 1664014620867,
+    "duration" : 8197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88c9ccb2849dc49b",
+  "name" : "Registration on the website with valid email",
+  "time" : {
+    "start" : 1664014566637,
+    "stop" : 1664014592770,
+    "duration" : 26133
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d26a50f39b8fe32d",
+  "name" : "Careers section check",
+  "time" : {
+    "start" : 1664014620922,
+    "stop" : 1664014625798,
+    "duration" : 4876
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36d5727e7ee21af0",
+  "name" : "Sending a message using a function Talk to an expert",
+  "time" : {
+    "start" : 1664014638857,
+    "stop" : 1664014649450,
+    "duration" : 10593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88b85788226f254",
+  "name" : "Authorization on the website",
+  "time" : {
+    "start" : 1664014592832,
+    "stop" : 1664014606051,
+    "duration" : 13219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc06c60f911e7474",
+  "name" : "Checking the Savings Calculator",
+  "time" : {
+    "start" : 1664014625826,
+    "stop" : 1664014632620,
+    "duration" : 6794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5daf60e0796f8a57",
+  "name" : "Password reset",
+  "time" : {
+    "start" : 1664014606108,
+    "stop" : 1664014612648,
+    "duration" : 6540
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
