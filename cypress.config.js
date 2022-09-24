@@ -5,6 +5,7 @@ module.exports = defineConfig({
   defaultCommandTimeout: 10000,
   viewportWidth: 1920,
   viewportHeight: 1080,
+  video: false,
   e2e: {
     setupNodeEvents(on, config) {
       allureWriter(on, config);
