@@ -16,9 +16,6 @@ jobs:
     - name: Cypress run
       continue-on-error: true
       run: npm run test
-      uses: cypress-io/github-action@v4
-      with:
-        browser: chrome
 
     - uses: actions/upload-artifact@master
       with:
