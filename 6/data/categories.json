@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 20000ms: expected '<h1.Text-sc-5o8owa-0.sc-1e9319a3-4.gkWopw.gjiitA>' to have text 'We\\'ve sent you an email to activate your account', but the text was 'Create a free account'",
+      "children" : [ {
+        "name" : "Registration on the website with valid email",
+        "uid" : "4f3fc0387e86bba9",
+        "parentUid" : "5131fe760760bfc3d9412c5354fa3c6e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1664015300312,
+          "stop" : 1664015326347,
+          "duration" : 26035
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5131fe760760bfc3d9412c5354fa3c6e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }
