@@ -30,7 +30,7 @@ context('Actions', () => {
     })
     it('Registration on the website with valid email', () => {
         registrPage.clickSignup()
-        registrPage.registrUser("testing"+randomdata.randomstring(5)+"@ukr.net", randomdata.randomstring(10), "^"+randomdata.randomstring(25))
+        registrPage.registrUser("testing"+randomdata.randomstring(2)+"@gmail.com", randomdata.randomstring(10), "^"+randomdata.randomstring(25))
         registrPage.validatMessageExpect().should('have.text', "We've sent you an email to activate your account")
     })
     it('Authorization on the website', () => {

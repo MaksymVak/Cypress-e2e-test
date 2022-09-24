@@ -1,4 +1,4 @@
-name: allure-report
+name: E2E test with allure-report
 'on':
     workflow_dispatch:
     push:
