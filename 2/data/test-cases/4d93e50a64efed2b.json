@@ -1,0 +1,759 @@
+{
+  "uid" : "4d93e50a64efed2b",
+  "name" : "Careers section check",
+  "fullName" : "Careers section check",
+  "historyId" : "b7fae3d9d6881bc4da4dc8786360eab3",
+  "time" : {
+    "start" : 1664014317316,
+    "stop" : 1664014322742,
+    "duration" : 5426
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1664014317317,
+        "stop" : 1664014319166,
+        "duration" : 1849
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://telnyx.com/",
+        "time" : {
+          "start" : 1664014317695,
+          "stop" : 1664014319163,
+          "duration" : 1468
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://r3.visualwebsiteoptimizer.com/analyze?_a=643783&_u=https%3A%2F%2Ftelnyx.com%2Fpricing%2Fcall-control%2Fua",
+        "time" : {
+          "start" : 1664014319163,
+          "stop" : 1664014319163,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 202 https://sessions.bugsnag.com/",
+        "time" : {
+          "start" : 1664014319163,
+          "stop" : 1664014319163,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 202 https://sessions.bugsnag.com/",
+        "time" : {
+          "start" : 1664014319163,
+          "stop" : 1664014319163,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://cdn.segment.com/v1/projects/ZJF0glU6NoKycjhoQqez4gAkisp7igJx/settings",
+        "time" : {
+          "start" : 1664014319163,
+          "stop" : 1664014319163,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /_next/data/jAV4MKUiAbIzUEOcantp0/index.json",
+        "time" : {
+          "start" : 1664014319163,
+          "stop" : 1664014319163,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://dev.visualwebsiteoptimizer.com/analysis/worker-70faafffa0475802f5ee03ca5ff74179.js",
+        "time" : {
+          "start" : 1664014319163,
+          "stop" : 1664014319163,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://assets.telnyx.com/_next/static/css/999735718d407326.css",
+        "time" : {
+          "start" : 1664014319163,
+          "stop" : 1664014319163,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j97&tid=UA-52431503-5&cid=1346137900.1664014319&jid=192930312&gjid=343601794&_gid=746138263.1664014319&_u=aGBAgEAjAAAAAE~&z=873699414",
+        "time" : {
+          "start" : 1664014319163,
+          "stop" : 1664014319163,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://api.segment.io/v1/p",
+        "time" : {
+          "start" : 1664014319163,
+          "stop" : 1664014319163,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://api-iam.intercom.io/messenger/web/ping",
+        "time" : {
+          "start" : 1664014319163,
+          "stop" : 1664014319163,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 204 https://j.clarity.ms/collect",
+        "time" : {
+          "start" : 1664014319163,
+          "stop" : 1664014319163,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get body",
+        "time" : {
+          "start" : 1664014319163,
+          "stop" : 1664014319166,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 13,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get header",
+      "time" : {
+        "start" : 1664014319168,
+        "stop" : 1664014319184,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "realHover",
+      "time" : {
+        "start" : 1664014319184,
+        "stop" : 1664014319304,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get span",
+      "time" : {
+        "start" : 1664014319304,
+        "stop" : 1664014319396,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains Company",
+      "time" : {
+        "start" : 1664014319396,
+        "stop" : 1664014319417,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "realHover",
+      "time" : {
+        "start" : 1664014319417,
+        "stop" : 1664014319513,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get header [href=\"/company/careers\"] span",
+      "time" : {
+        "start" : 1664014319513,
+        "stop" : 1664014319535,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1664014319535,
+        "stop" : 1664014319856,
+        "duration" : 321
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://r1.visualwebsiteoptimizer.com/analyze?_a=643783&_u=https://telnyx.com/",
+      "time" : {
+        "start" : 1664014319854,
+        "stop" : 1664014319854,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page load --waiting for new page to load--",
+      "time" : {
+        "start" : 1664014319854,
+        "stop" : 1664014319854,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://r1.visualwebsiteoptimizer.com/analyze?_a=643783&_u=https%3A%2F%2Ftelnyx.com%2F",
+      "time" : {
+        "start" : 1664014319854,
+        "stop" : 1664014319854,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /_next/data/jAV4MKUiAbIzUEOcantp0/company/careers.json?slug=careers",
+      "time" : {
+        "start" : 1664014319855,
+        "stop" : 1664014319855,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 204 https://j.clarity.ms/collect",
+      "time" : {
+        "start" : 1664014319856,
+        "stop" : 1664014322736,
+        "duration" : 2880
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "new url https://telnyx.com/company/careers",
+      "time" : {
+        "start" : 1664014322728,
+        "stop" : 1664014322728,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 202 https://sessions.bugsnag.com/",
+      "time" : {
+        "start" : 1664014322728,
+        "stop" : 1664014322728,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 202 https://sessions.bugsnag.com/",
+      "time" : {
+        "start" : 1664014322728,
+        "stop" : 1664014322728,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://boards-api.greenhouse.io/v1/boards/telnyx54/departments",
+      "time" : {
+        "start" : 1664014322728,
+        "stop" : 1664014322728,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://cdn.segment.com/v1/projects/ZJF0glU6NoKycjhoQqez4gAkisp7igJx/settings",
+      "time" : {
+        "start" : 1664014322728,
+        "stop" : 1664014322728,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://dev.visualwebsiteoptimizer.com/analysis/worker-70faafffa0475802f5ee03ca5ff74179.js",
+      "time" : {
+        "start" : 1664014322728,
+        "stop" : 1664014322728,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://api.segment.io/v1/p",
+      "time" : {
+        "start" : 1664014322728,
+        "stop" : 1664014322728,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 204 https://j.clarity.ms/collect",
+      "time" : {
+        "start" : 1664014322728,
+        "stop" : 1664014322728,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://r1.visualwebsiteoptimizer.com/analyze?_a=643783&_u=https://telnyx.com/company/careers",
+      "time" : {
+        "start" : 1664014322735,
+        "stop" : 1664014322735,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://api-iam.intercom.io/messenger/web/ping",
+      "time" : {
+        "start" : 1664014322735,
+        "stop" : 1664014322735,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://r1.visualwebsiteoptimizer.com/analyze?_a=643783&_u=https%3A%2F%2Ftelnyx.com%2Fcompany%2Fcareers",
+      "time" : {
+        "start" : 1664014322735,
+        "stop" : 1664014322735,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://r1.visualwebsiteoptimizer.com/analyze?_a=643783&_u=https://telnyx.com/company/careers",
+      "time" : {
+        "start" : 1664014322735,
+        "stop" : 1664014322735,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://r1.visualwebsiteoptimizer.com/analyze?_a=643783&_u=https%3A%2F%2Ftelnyx.com%2Fcompany%2Fcareers",
+      "time" : {
+        "start" : 1664014322735,
+        "stop" : 1664014322735,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://r1.visualwebsiteoptimizer.com/analyze?_a=643783&_u=https://telnyx.com/company/careers",
+      "time" : {
+        "start" : 1664014322735,
+        "stop" : 1664014322735,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://159vod-adaptive.akamaized.net/exp=1664018220~acl=%2F74b51ae0-8ccb-4cc3-b46d-7cc2e37972c6%2F%2A~hmac=7d8cf3e722e3512c39cba7e375c2ae2ee1a9edd5601152ef67950db3b6d460ea/74b51ae0-8ccb-4cc3-b46d-7cc2e37972c6/sep/video/ce56440f,206985e2,f81fc2b7,9d40e9e3,38a1765d/master.json?base64_init=1",
+      "time" : {
+        "start" : 1664014322735,
+        "stop" : 1664014322735,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://r1.visualwebsiteoptimizer.com/analyze?_a=643783&_u=https%3A%2F%2Ftelnyx.com%2Fcompany%2Fcareers",
+      "time" : {
+        "start" : 1664014322735,
+        "stop" : 1664014322735,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://r1.visualwebsiteoptimizer.com/analyze?_a=643783&_u=https://telnyx.com/company/careers",
+      "time" : {
+        "start" : 1664014322735,
+        "stop" : 1664014322735,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get header h1",
+      "time" : {
+        "start" : 1664014322735,
+        "stop" : 1664014322735,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<h1.Text-sc-5o8owa-0.sc-f6d2e4fb-3.clNvhv.iNtgdk>** to have text **We're building the future of communications.**",
+      "time" : {
+        "start" : 1664014322735,
+        "stop" : 1664014322736,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "We're building the future of communications."
+      }, {
+        "name" : "expected",
+        "value" : "We're building the future of communications."
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "url",
+      "time" : {
+        "start" : 1664014322736,
+        "stop" : 1664014322742,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **https://telnyx.com/company/careers** to include **/careers**",
+      "time" : {
+        "start" : 1664014322742,
+        "stop" : 1664014322742,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "https://telnyx.com/company/careers"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 47,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Actions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d93e50a64efed2b.json",
+  "parameterValues" : [ ]
+}

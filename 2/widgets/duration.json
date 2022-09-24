@@ -1,0 +1,101 @@
+[ {
+  "uid" : "6458658326aa7071",
+  "name" : "Products section check",
+  "time" : {
+    "start" : 1664014347222,
+    "stop" : 1664014351736,
+    "duration" : 4514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87e1cdf3f98ae711",
+  "name" : "Password reset",
+  "time" : {
+    "start" : 1664014302152,
+    "stop" : 1664014308504,
+    "duration" : 6352
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e51bcfd93e762ea",
+  "name" : "Checking the Marketplace",
+  "time" : {
+    "start" : 1664014329307,
+    "stop" : 1664014335170,
+    "duration" : 5863
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b13f905974e4a77e",
+  "name" : "Checking the Savings Calculator",
+  "time" : {
+    "start" : 1664014322800,
+    "stop" : 1664014329249,
+    "duration" : 6449
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "719fdfd5598242a6",
+  "name" : "Sending a message using a function Talk to an expert",
+  "time" : {
+    "start" : 1664014335202,
+    "stop" : 1664014347100,
+    "duration" : 11898
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85cad9463dadb7af",
+  "name" : "Authorization on the website",
+  "time" : {
+    "start" : 1664014288371,
+    "stop" : 1664014302113,
+    "duration" : 13742
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3419fc3911e53a41",
+  "name" : "Registration on the website with invalid email",
+  "time" : {
+    "start" : 1664014249241,
+    "stop" : 1664014262190,
+    "duration" : 12949
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c115cfa0091d208",
+  "name" : "Voice Api section check",
+  "time" : {
+    "start" : 1664014308527,
+    "stop" : 1664014317266,
+    "duration" : 8739
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e02761148e24e3d3",
+  "name" : "Registration on the website with valid email",
+  "time" : {
+    "start" : 1664014262238,
+    "stop" : 1664014288324,
+    "duration" : 26086
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d93e50a64efed2b",
+  "name" : "Careers section check",
+  "time" : {
+    "start" : 1664014317316,
+    "stop" : 1664014322742,
+    "duration" : 5426
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
