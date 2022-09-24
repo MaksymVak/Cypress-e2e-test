@@ -1,1 +1,101 @@
-[ ]
+[ {
+  "uid" : "6788cf6f058f85f1",
+  "name" : "TC-03 Authorization on the website",
+  "time" : {
+    "start" : 1664020026173,
+    "stop" : 1664020039975,
+    "duration" : 13802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26a081c33245592c",
+  "name" : "TC-08 Checking the Marketplace",
+  "time" : {
+    "start" : 1664020068823,
+    "stop" : 1664020074814,
+    "duration" : 5991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a238853497d47d3",
+  "name" : "TC-06 Careers section check",
+  "time" : {
+    "start" : 1664020055524,
+    "stop" : 1664020061072,
+    "duration" : 5548
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81f837452b46f12c",
+  "name" : "TC-10 Products section check",
+  "time" : {
+    "start" : 1664020085705,
+    "stop" : 1664020090787,
+    "duration" : 5082
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d18d05b154540c05",
+  "name" : "TC-05 Voice Api section check",
+  "time" : {
+    "start" : 1664020047226,
+    "stop" : 1664020055451,
+    "duration" : 8225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "889a90ab764fe20c",
+  "name" : "TC-04 Password reset",
+  "time" : {
+    "start" : 1664020040020,
+    "stop" : 1664020047198,
+    "duration" : 7178
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb6d8f1557bb8917",
+  "name" : "TC-09 Sending a message using a function Talk to an expert",
+  "time" : {
+    "start" : 1664020074860,
+    "stop" : 1664020085532,
+    "duration" : 10672
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c6cf6559844cf7b",
+  "name" : "TC-07 Checking the Savings Calculator",
+  "time" : {
+    "start" : 1664020061104,
+    "stop" : 1664020068767,
+    "duration" : 7663
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2849578d828b9d3a",
+  "name" : "TC-01 Registration on the website with invalid email",
+  "time" : {
+    "start" : 1664019985223,
+    "stop" : 1664019998565,
+    "duration" : 13342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d2a3078586c6858",
+  "name" : "TC-02 Registration on the website with valid email",
+  "time" : {
+    "start" : 1664019998619,
+    "stop" : 1664020026123,
+    "duration" : 27504
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

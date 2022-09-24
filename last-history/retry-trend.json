@@ -1,4 +1,12 @@
 [ {
+  "buildOrder" : 10,
+  "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/10/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 10,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 9,
   "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/9/",
   "reportName" : "Allure Report with history",
