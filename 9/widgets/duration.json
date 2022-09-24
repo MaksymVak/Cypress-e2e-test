@@ -1,0 +1,101 @@
+[ {
+  "uid" : "558e9076bb0b6902",
+  "name" : "TC-07 Checking the Savings Calculator",
+  "time" : {
+    "start" : 1664019844416,
+    "stop" : 1664019850898,
+    "duration" : 6482
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "929f786e084b49dd",
+  "name" : "TC-02 Registration on the website with valid email",
+  "time" : {
+    "start" : 1664019784531,
+    "stop" : 1664019810712,
+    "duration" : 26181
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bd9a8a8fc475b78",
+  "name" : "TC-08 Checking the Marketplace",
+  "time" : {
+    "start" : 1664019850945,
+    "stop" : 1664019857044,
+    "duration" : 6099
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbb542b7ffb55151",
+  "name" : "TC-10 Products section check",
+  "time" : {
+    "start" : 1664019867903,
+    "stop" : 1664019872663,
+    "duration" : 4760
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73719ea378b249d8",
+  "name" : "TC-03 Authorization on the website",
+  "time" : {
+    "start" : 1664019810758,
+    "stop" : 1664019824895,
+    "duration" : 14137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "235400ed8ac0114f",
+  "name" : "TC-04 Password reset",
+  "time" : {
+    "start" : 1664019824966,
+    "stop" : 1664019831153,
+    "duration" : 6187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ca26e1ba1a53aa4",
+  "name" : "TC-05 Voice Api section check",
+  "time" : {
+    "start" : 1664019831184,
+    "stop" : 1664019839396,
+    "duration" : 8212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49159c89d91a7184",
+  "name" : "TC-09 Sending a message using a function Talk to an expert",
+  "time" : {
+    "start" : 1664019857084,
+    "stop" : 1664019867748,
+    "duration" : 10664
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e434e7db0246c9",
+  "name" : "TC-01 Registration on the website with invalid email",
+  "time" : {
+    "start" : 1664019770684,
+    "stop" : 1664019784484,
+    "duration" : 13800
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eed756f7fb3f6d49",
+  "name" : "TC-06 Careers section check",
+  "time" : {
+    "start" : 1664019839445,
+    "stop" : 1664019844390,
+    "duration" : 4945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
