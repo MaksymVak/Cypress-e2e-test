@@ -1,3 +1,45 @@
 [ {
+  "buildOrder" : 7,
+  "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/7/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 97447
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/6/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 103943
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/5/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 102134
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/4/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 118291
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/3/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 101043
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/2/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 102495
+  }
+}, {
   "data" : { }
 } ]

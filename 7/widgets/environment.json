@@ -1,1 +1,4 @@
-[ ]
+[ {
+  "values" : [ "https://MaksymVak.github.io/Cypress-e2e-test" ],
+  "name" : "URL"
+} ]

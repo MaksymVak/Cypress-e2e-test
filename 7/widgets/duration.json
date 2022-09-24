@@ -1,1 +1,101 @@
-[ ]
+[ {
+  "uid" : "58c42c6bcd789b76",
+  "name" : "Careers section check",
+  "time" : {
+    "start" : 1664018330933,
+    "stop" : 1664018335580,
+    "duration" : 4647
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fb6714da2d1edfd",
+  "name" : "Products section check",
+  "time" : {
+    "start" : 1664018358781,
+    "stop" : 1664018362850,
+    "duration" : 4069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c225f40ace8b39e",
+  "name" : "Checking the Savings Calculator",
+  "time" : {
+    "start" : 1664018335600,
+    "stop" : 1664018342299,
+    "duration" : 6699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "582b9f181f160be2",
+  "name" : "Registration on the website with valid email",
+  "time" : {
+    "start" : 1664018279067,
+    "stop" : 1664018302432,
+    "duration" : 23365
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21cfdeedf29c1675",
+  "name" : "Authorization on the website",
+  "time" : {
+    "start" : 1664018302456,
+    "stop" : 1664018316334,
+    "duration" : 13878
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae5b517cfc4b0d8d",
+  "name" : "Checking the Marketplace",
+  "time" : {
+    "start" : 1664018342333,
+    "stop" : 1664018348499,
+    "duration" : 6166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b710799049df4718",
+  "name" : "Password reset",
+  "time" : {
+    "start" : 1664018316423,
+    "stop" : 1664018323270,
+    "duration" : 6847
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "668aac7ffff83e40",
+  "name" : "Registration on the website with invalid email",
+  "time" : {
+    "start" : 1664018265403,
+    "stop" : 1664018278990,
+    "duration" : 13587
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5986e7ed5516644",
+  "name" : "Sending a message using a function Talk to an expert",
+  "time" : {
+    "start" : 1664018348555,
+    "stop" : 1664018358724,
+    "duration" : 10169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81a3100582ab4e0f",
+  "name" : "Voice Api section check",
+  "time" : {
+    "start" : 1664018323290,
+    "stop" : 1664018330827,
+    "duration" : 7537
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
