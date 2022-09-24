@@ -1,3 +1,24 @@
 [ {
+  "buildOrder" : 4,
+  "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/4/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 118291
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/3/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 101043
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/2/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 102495
+  }
+}, {
   "data" : { }
 } ]

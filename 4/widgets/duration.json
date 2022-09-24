@@ -1,1 +1,101 @@
-[ ]
+[ {
+  "uid" : "af850abb425df6cf",
+  "name" : "Voice Api section check",
+  "time" : {
+    "start" : 1664014858421,
+    "stop" : 1664014867430,
+    "duration" : 9009
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6bad96c7c62d1d1",
+  "name" : "Sending a message using a function Talk to an expert",
+  "time" : {
+    "start" : 1664014888571,
+    "stop" : 1664014899237,
+    "duration" : 10666
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f34a5364a2e944ba",
+  "name" : "Authorization on the website",
+  "time" : {
+    "start" : 1664014835590,
+    "stop" : 1664014850726,
+    "duration" : 15136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5b6bb6aa2ddef23",
+  "name" : "Checking the Savings Calculator",
+  "time" : {
+    "start" : 1664014873209,
+    "stop" : 1664014881312,
+    "duration" : 8103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53ee68c084062ed8",
+  "name" : "Password reset",
+  "time" : {
+    "start" : 1664014850772,
+    "stop" : 1664014858384,
+    "duration" : 7612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f67fb43230c34365",
+  "name" : "Registration on the website with invalid email",
+  "time" : {
+    "start" : 1664014787454,
+    "stop" : 1664014807274,
+    "duration" : 19820
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6a93941a1b05fe5",
+  "name" : "Products section check",
+  "time" : {
+    "start" : 1664014899434,
+    "stop" : 1664014905745,
+    "duration" : 6311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd4c22135e02b8b",
+  "name" : "Registration on the website with valid email",
+  "time" : {
+    "start" : 1664014807375,
+    "stop" : 1664014835524,
+    "duration" : 28149
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "289c876fa046287b",
+  "name" : "Careers section check",
+  "time" : {
+    "start" : 1664014867569,
+    "stop" : 1664014873160,
+    "duration" : 5591
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b604cf05a268dd8",
+  "name" : "Checking the Marketplace",
+  "time" : {
+    "start" : 1664014881378,
+    "stop" : 1664014888526,
+    "duration" : 7148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
