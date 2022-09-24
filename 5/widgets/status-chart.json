@@ -1,1 +1,101 @@
-[ ]
+[ {
+  "uid" : "7960cae1a8a2fdd9",
+  "name" : "Careers section check",
+  "time" : {
+    "start" : 1664015098459,
+    "stop" : 1664015103450,
+    "duration" : 4991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "442d96da63228fa6",
+  "name" : "Checking the Marketplace",
+  "time" : {
+    "start" : 1664015110470,
+    "stop" : 1664015116635,
+    "duration" : 6165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a81232b2cb02f37",
+  "name" : "Checking the Savings Calculator",
+  "time" : {
+    "start" : 1664015103481,
+    "stop" : 1664015110397,
+    "duration" : 6916
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1d62ca6751c5a5b",
+  "name" : "Sending a message using a function Talk to an expert",
+  "time" : {
+    "start" : 1664015116946,
+    "stop" : 1664015127630,
+    "duration" : 10684
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3ce57485eb4346c",
+  "name" : "Password reset",
+  "time" : {
+    "start" : 1664015082492,
+    "stop" : 1664015089042,
+    "duration" : 6550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2a5950131d169b1",
+  "name" : "Registration on the website with valid email",
+  "time" : {
+    "start" : 1664015043119,
+    "stop" : 1664015069328,
+    "duration" : 26209
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "97b69ebb9e8342c9",
+  "name" : "Authorization on the website",
+  "time" : {
+    "start" : 1664015069376,
+    "stop" : 1664015082404,
+    "duration" : 13028
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1da0bb749e9a9d72",
+  "name" : "Voice Api section check",
+  "time" : {
+    "start" : 1664015089056,
+    "stop" : 1664015098379,
+    "duration" : 9323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7fe19fc3d0c776a",
+  "name" : "Products section check",
+  "time" : {
+    "start" : 1664015127725,
+    "stop" : 1664015132432,
+    "duration" : 4707
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed1098ef97b5a26f",
+  "name" : "Registration on the website with invalid email",
+  "time" : {
+    "start" : 1664015030298,
+    "stop" : 1664015043075,
+    "duration" : 12777
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
