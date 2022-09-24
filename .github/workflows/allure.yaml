@@ -5,7 +5,7 @@ name: E2E test with allure-report
         branches:
             - main
 jobs:
-    generate-report:
+    cypress-run:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2

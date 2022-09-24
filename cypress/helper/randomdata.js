@@ -11,7 +11,7 @@ function randomstring(L) {
   }
 
   function makeEmail() { 
-      var strValues="abcdefg12345"; 
+      var strValues="abcdefgABCDEFG12345"; 
       var strEmail = ""; 
       var strTmp; 
       for (var i=0;i<10;i++) { 
