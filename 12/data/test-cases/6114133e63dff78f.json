@@ -1,0 +1,742 @@
+{
+  "uid" : "6114133e63dff78f",
+  "name" : "TC-09 Sending a message using a function Talk to an expert",
+  "fullName" : "TC-09 Sending a message using a function Talk to an expert",
+  "historyId" : "e33fb937d2db617256166d3af90d1a1d",
+  "time" : {
+    "start" : 1664807582633,
+    "stop" : 1664807602716,
+    "duration" : 20083
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 10000ms: Expected to find element: `#mktoCheckbox_10173_0`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 10000ms: Expected to find element: `#mktoCheckbox_10173_0`, but never found it.\n    at GeneralPage.getElement (webpack:///./cypress/page/Page.js:12:14)\n    at GeneralPage.checkElement (webpack:///./cypress/page/Page.js:36:9)\n    at TalkexpertPage.fillUserForm (webpack:///./cypress/page/Talkexpert.page.js:33:20)\n    at Context.eval (webpack:///./cypress/e2e/telnyx.cy.js:71:23)",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 10000ms: Expected to find element: `#mktoCheckbox_10173_0`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 10000ms: Expected to find element: `#mktoCheckbox_10173_0`, but never found it.\n    at GeneralPage.getElement (webpack:///./cypress/page/Page.js:12:14)\n    at GeneralPage.checkElement (webpack:///./cypress/page/Page.js:36:9)\n    at TalkexpertPage.fillUserForm (webpack:///./cypress/page/Talkexpert.page.js:33:20)\n    at Context.eval (webpack:///./cypress/e2e/telnyx.cy.js:71:23)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1664807582634,
+        "stop" : 1664807584737,
+        "duration" : 2103
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://telnyx.com/",
+        "time" : {
+          "start" : 1664807583316,
+          "stop" : 1664807584733,
+          "duration" : 1417
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 202 https://sessions.bugsnag.com/",
+        "time" : {
+          "start" : 1664807584732,
+          "stop" : 1664807584732,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 202 https://sessions.bugsnag.com/",
+        "time" : {
+          "start" : 1664807584732,
+          "stop" : 1664807584732,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://cdn.segment.com/v1/projects/ZJF0glU6NoKycjhoQqez4gAkisp7igJx/settings",
+        "time" : {
+          "start" : 1664807584733,
+          "stop" : 1664807584733,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /_next/data/pGRAx6_Q7kwgH1ePsZHp6/index.json",
+        "time" : {
+          "start" : 1664807584733,
+          "stop" : 1664807584733,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j97&tid=UA-52431503-5&cid=1775196378.1664807584&jid=1755960122&gjid=231270989&_gid=778696956.1664807584&_u=aGBAgEAjAAAAAE~&z=192565724",
+        "time" : {
+          "start" : 1664807584733,
+          "stop" : 1664807584733,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://api.segment.io/v1/p",
+        "time" : {
+          "start" : 1664807584733,
+          "stop" : 1664807584733,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://assets.telnyx.com/_next/static/css/999735718d407326.css",
+        "time" : {
+          "start" : 1664807584733,
+          "stop" : 1664807584733,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://api-iam.intercom.io/messenger/web/ping",
+        "time" : {
+          "start" : 1664807584733,
+          "stop" : 1664807584733,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get body",
+        "time" : {
+          "start" : 1664807584733,
+          "stop" : 1664807584736,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 10,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get li [href=\"/contact-us\"]",
+      "time" : {
+        "start" : 1664807584741,
+        "stop" : 1664807584760,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1664807584760,
+        "stop" : 1664807584987,
+        "duration" : 227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://i.clarity.ms/collect",
+      "time" : {
+        "start" : 1664807584987,
+        "stop" : 1664807584987,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page load --waiting for new page to load--",
+      "time" : {
+        "start" : 1664807584987,
+        "stop" : 1664807584987,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /_next/data/pGRAx6_Q7kwgH1ePsZHp6/contact-us.json",
+      "time" : {
+        "start" : 1664807584987,
+        "stop" : 1664807584987,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "new url https://telnyx.com/contact-us",
+      "time" : {
+        "start" : 1664807584987,
+        "stop" : 1664807587676,
+        "duration" : 2689
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 202 https://sessions.bugsnag.com/",
+      "time" : {
+        "start" : 1664807587675,
+        "stop" : 1664807587675,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 202 https://sessions.bugsnag.com/",
+      "time" : {
+        "start" : 1664807587675,
+        "stop" : 1664807587675,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://cdn.segment.com/v1/projects/ZJF0glU6NoKycjhoQqez4gAkisp7igJx/settings",
+      "time" : {
+        "start" : 1664807587676,
+        "stop" : 1664807587676,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://api.segment.io/v1/p",
+      "time" : {
+        "start" : 1664807587676,
+        "stop" : 1664807587676,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://api-iam.intercom.io/messenger/web/ping",
+      "time" : {
+        "start" : 1664807587676,
+        "stop" : 1664807587676,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 204 https://i.clarity.ms/collect",
+      "time" : {
+        "start" : 1664807587676,
+        "stop" : 1664807587676,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get select#Reason_for_Contact__c",
+      "time" : {
+        "start" : 1664807587676,
+        "stop" : 1664807587676,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "select Support",
+      "time" : {
+        "start" : 1664807587676,
+        "stop" : 1664807588017,
+        "duration" : 341
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #FirstName",
+      "time" : {
+        "start" : 1664807588017,
+        "stop" : 1664807588037,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type BOVWIS6ueD",
+      "time" : {
+        "start" : 1664807588037,
+        "stop" : 1664807588461,
+        "duration" : 424
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://i.clarity.ms/collect",
+      "time" : {
+        "start" : 1664807588461,
+        "stop" : 1664807588461,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #LastName",
+      "time" : {
+        "start" : 1664807588461,
+        "stop" : 1664807588484,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type fbXeGoFLlA",
+      "time" : {
+        "start" : 1664807588484,
+        "stop" : 1664807588877,
+        "duration" : 393
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #Email",
+      "time" : {
+        "start" : 1664807588877,
+        "stop" : 1664807588895,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type 4345f2cg5b@c1c3d4db.com",
+      "time" : {
+        "start" : 1664807588895,
+        "stop" : 1664807589542,
+        "duration" : 647
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get select#Phone_Number_Extension__c",
+      "time" : {
+        "start" : 1664807589542,
+        "stop" : 1664807589561,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "select +380",
+      "time" : {
+        "start" : 1664807589561,
+        "stop" : 1664807589794,
+        "duration" : 233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #Phone_Number_Base__c",
+      "time" : {
+        "start" : 1664807589794,
+        "stop" : 1664807589818,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type 1112233",
+      "time" : {
+        "start" : 1664807589818,
+        "stop" : 1664807590155,
+        "duration" : 337
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #Website",
+      "time" : {
+        "start" : 1664807590155,
+        "stop" : 1664807590175,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type http://www.example.com/",
+      "time" : {
+        "start" : 1664807590175,
+        "stop" : 1664807590842,
+        "duration" : 667
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 204 https://i.clarity.ms/collect",
+      "time" : {
+        "start" : 1664807590842,
+        "stop" : 1664807590842,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #Form_Additional_Information__c",
+      "time" : {
+        "start" : 1664807590842,
+        "stop" : 1664807590862,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type xPlXQj3NVgO38kjmQUzAiVovrgM6ZO83nah3MuJLmVW8xCw2XyrVKBRjQNX3LnJNQNgT5VfssgyBljRRJQmQWoJOOZZEp4vNeNMZ",
+      "time" : {
+        "start" : 1664807590862,
+        "stop" : 1664807592532,
+        "duration" : 1670
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #mktoCheckbox_10173_0",
+      "time" : {
+        "start" : 1664807592532,
+        "stop" : 1664807602715,
+        "duration" : 10183
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 204 https://i.clarity.ms/collect",
+      "time" : {
+        "start" : 1664807602715,
+        "stop" : 1664807602715,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7ff98a104f94c312",
+      "name" : "cypress/e2e/telnyx.cy.js:2022-10-03T14:33:22.530Z",
+      "source" : "7ff98a104f94c312.png",
+      "type" : "image/png",
+      "size" : 118489
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 43,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Actions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "ba3ed47c6119fd45",
+        "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/11//#testresult/ba3ed47c6119fd45",
+        "status" : "passed",
+        "time" : {
+          "start" : 1664020308877,
+          "stop" : 1664020319041,
+          "duration" : 10164
+        }
+      }, {
+        "uid" : "eb6d8f1557bb8917",
+        "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/10//#testresult/eb6d8f1557bb8917",
+        "status" : "passed",
+        "time" : {
+          "start" : 1664020074860,
+          "stop" : 1664020085532,
+          "duration" : 10672
+        }
+      }, {
+        "uid" : "49159c89d91a7184",
+        "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/9//#testresult/49159c89d91a7184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1664019857084,
+          "stop" : 1664019867748,
+          "duration" : 10664
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6114133e63dff78f.json",
+  "parameterValues" : [ ]
+}

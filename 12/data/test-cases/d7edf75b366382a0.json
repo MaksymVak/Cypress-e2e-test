@@ -1,0 +1,909 @@
+{
+  "uid" : "d7edf75b366382a0",
+  "name" : "TC-02 Registration on the website with valid email",
+  "fullName" : "TC-02 Registration on the website with valid email",
+  "historyId" : "d8dc77cf7a706c0d87d1ce0208cc195e",
+  "time" : {
+    "start" : 1664807501565,
+    "stop" : 1664807529315,
+    "duration" : 27750
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 20000ms: expected '<h1.Text-sc-5o8owa-0.sc-1e9319a3-4.gkWopw.gjiitA>' to have text 'We\\'ve sent you an email to activate your account', but the text was 'Create a free account'",
+  "statusTrace" : "AssertionError: Timed out retrying after 20000ms: expected '<h1.Text-sc-5o8owa-0.sc-1e9319a3-4.gkWopw.gjiitA>' to have text 'We\\'ve sent you an email to activate your account', but the text was 'Create a free account'\n    at Context.eval (webpack:///./cypress/e2e/telnyx.cy.js:34:43)",
+  "flaky" : true,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 20000ms: expected '<h1.Text-sc-5o8owa-0.sc-1e9319a3-4.gkWopw.gjiitA>' to have text 'We\\'ve sent you an email to activate your account', but the text was 'Create a free account'",
+    "statusTrace" : "AssertionError: Timed out retrying after 20000ms: expected '<h1.Text-sc-5o8owa-0.sc-1e9319a3-4.gkWopw.gjiitA>' to have text 'We\\'ve sent you an email to activate your account', but the text was 'Create a free account'\n    at Context.eval (webpack:///./cypress/e2e/telnyx.cy.js:34:43)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1664807501565,
+        "stop" : 1664807504356,
+        "duration" : 2791
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://telnyx.com/",
+        "time" : {
+          "start" : 1664807501903,
+          "stop" : 1664807504350,
+          "duration" : 2447
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 202 https://sessions.bugsnag.com/",
+        "time" : {
+          "start" : 1664807504350,
+          "stop" : 1664807504350,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 202 https://sessions.bugsnag.com/",
+        "time" : {
+          "start" : 1664807504350,
+          "stop" : 1664807504350,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://cdn.segment.com/v1/projects/ZJF0glU6NoKycjhoQqez4gAkisp7igJx/settings",
+        "time" : {
+          "start" : 1664807504350,
+          "stop" : 1664807504350,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /_next/data/pGRAx6_Q7kwgH1ePsZHp6/index.json",
+        "time" : {
+          "start" : 1664807504350,
+          "stop" : 1664807504350,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://assets.telnyx.com/_next/static/css/999735718d407326.css",
+        "time" : {
+          "start" : 1664807504350,
+          "stop" : 1664807504350,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://api.segment.io/v1/p",
+        "time" : {
+          "start" : 1664807504350,
+          "stop" : 1664807504350,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j97&tid=UA-52431503-5&cid=1342170500.1664807504&jid=1358607551&gjid=1834362415&_gid=999910092.1664807504&_u=aGBAgEAjAAAAAE~&z=2080466562",
+        "time" : {
+          "start" : 1664807504350,
+          "stop" : 1664807504350,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://api-iam.intercom.io/messenger/web/ping",
+        "time" : {
+          "start" : 1664807504350,
+          "stop" : 1664807504350,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get body",
+        "time" : {
+          "start" : 1664807504351,
+          "stop" : 1664807504355,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 10,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get li div [href=\"/sign-up\"]",
+      "time" : {
+        "start" : 1664807504359,
+        "stop" : 1664807504369,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1664807504369,
+        "stop" : 1664807504635,
+        "duration" : 266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://i.clarity.ms/collect",
+      "time" : {
+        "start" : 1664807504634,
+        "stop" : 1664807504634,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page load --waiting for new page to load--",
+      "time" : {
+        "start" : 1664807504635,
+        "stop" : 1664807504635,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /_next/data/pGRAx6_Q7kwgH1ePsZHp6/sign-up.json",
+      "time" : {
+        "start" : 1664807504635,
+        "stop" : 1664807506480,
+        "duration" : 1845
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://api.segment.io/v1/t",
+      "time" : {
+        "start" : 1664807506479,
+        "stop" : 1664807506479,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 422 https://api-iam.intercom.io/messenger/web/events",
+      "time" : {
+        "start" : 1664807506479,
+        "stop" : 1664807506479,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://i.clarity.ms/collect",
+      "time" : {
+        "start" : 1664807506479,
+        "stop" : 1664807506479,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "new url https://telnyx.com/sign-up",
+      "time" : {
+        "start" : 1664807506479,
+        "stop" : 1664807506479,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 202 https://sessions.bugsnag.com/",
+      "time" : {
+        "start" : 1664807506479,
+        "stop" : 1664807506479,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 202 https://sessions.bugsnag.com/",
+      "time" : {
+        "start" : 1664807506479,
+        "stop" : 1664807506479,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://cdn.segment.com/v1/projects/ZJF0glU6NoKycjhoQqez4gAkisp7igJx/settings",
+      "time" : {
+        "start" : 1664807506479,
+        "stop" : 1664807506479,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://api.segment.io/v1/p",
+      "time" : {
+        "start" : 1664807506480,
+        "stop" : 1664807506480,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://api-iam.intercom.io/messenger/web/ping",
+      "time" : {
+        "start" : 1664807506480,
+        "stop" : 1664807506480,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://accounts.google.com/o/oauth2/iframerpc?action=checkOrigin&origin=https%3A%2F%2Ftelnyx.com&client_id=459741600459-4rsluhr9vebe92socurqhkpt8ckqhul1.apps.googleusercontent.com",
+      "time" : {
+        "start" : 1664807506480,
+        "stop" : 1664807506480,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #email",
+      "time" : {
+        "start" : 1664807506480,
+        "stop" : 1664807506480,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type ivan.eEa4N@gmail.com",
+      "time" : {
+        "start" : 1664807506480,
+        "stop" : 1664807507514,
+        "duration" : 1034
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 204 https://i.clarity.ms/collect",
+      "time" : {
+        "start" : 1664807507513,
+        "stop" : 1664807507513,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://i.clarity.ms/collect",
+      "time" : {
+        "start" : 1664807507513,
+        "stop" : 1664807507513,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://www.google.com/recaptcha/api2/reload?k=6LdL85cUAAAAAM9edio5VxgCSOZF8SHtxBn69FAv",
+      "time" : {
+        "start" : 1664807507513,
+        "stop" : 1664807507514,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://telnyx.com/api/verify-captcha",
+      "time" : {
+        "start" : 1664807507514,
+        "stop" : 1664807507514,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #full_name",
+      "time" : {
+        "start" : 1664807507514,
+        "stop" : 1664807507526,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type vjcPaRVuRI",
+      "time" : {
+        "start" : 1664807507526,
+        "stop" : 1664807507877,
+        "duration" : 351
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #password",
+      "time" : {
+        "start" : 1664807507877,
+        "stop" : 1664807507891,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type ^cQRZ7ukh2xFLFBkp6tZfzQpX0",
+      "time" : {
+        "start" : 1664807507891,
+        "stop" : 1664807508537,
+        "duration" : 646
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get [aria-label=\"signup-form\"] rect",
+      "time" : {
+        "start" : 1664807508537,
+        "stop" : 1664807508552,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "first",
+      "time" : {
+        "start" : 1664807508552,
+        "stop" : 1664807508563,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1664807508563,
+        "stop" : 1664807508687,
+        "duration" : 124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get [aria-label=\"signup-form\"] rect",
+      "time" : {
+        "start" : 1664807508687,
+        "stop" : 1664807508707,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "last",
+      "time" : {
+        "start" : 1664807508707,
+        "stop" : 1664807508722,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1664807508722,
+        "stop" : 1664807508847,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get [type=\"submit\"]",
+      "time" : {
+        "start" : 1664807508847,
+        "stop" : 1664807508862,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1664807508862,
+        "stop" : 1664807509043,
+        "duration" : 181
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://api.telnyx.com/registrations",
+      "time" : {
+        "start" : 1664807509043,
+        "stop" : 1664807509043,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #__next main h1",
+      "time" : {
+        "start" : 1664807509046,
+        "stop" : 1664807529314,
+        "duration" : 20268
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<h1.Text-sc-5o8owa-0.sc-1e9319a3-4.gkWopw.gjiitA>** to have text **We've sent you an email to activate your account**, but the text was **Create a free account**",
+      "time" : {
+        "start" : 1664807529313,
+        "stop" : 1664807529313,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 204 https://i.clarity.ms/collect",
+      "time" : {
+        "start" : 1664807529313,
+        "stop" : 1664807529313,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://www.google.com/recaptcha/api2/reload?k=6LdL85cUAAAAAM9edio5VxgCSOZF8SHtxBn69FAv",
+      "time" : {
+        "start" : 1664807529313,
+        "stop" : 1664807529313,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://notify.bugsnag.com/",
+      "time" : {
+        "start" : 1664807529313,
+        "stop" : 1664807529313,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://www.google.com/recaptcha/api2/reload?k=6LdL85cUAAAAAM9edio5VxgCSOZF8SHtxBn69FAv",
+      "time" : {
+        "start" : 1664807529313,
+        "stop" : 1664807529313,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 201 /api/verify-captcha",
+      "time" : {
+        "start" : 1664807529313,
+        "stop" : 1664807529313,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://www.google.com/recaptcha/api2/reload?k=6LdL85cUAAAAAM9edio5VxgCSOZF8SHtxBn69FAv",
+      "time" : {
+        "start" : 1664807529313,
+        "stop" : 1664807529313,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://i.clarity.ms/collect",
+      "time" : {
+        "start" : 1664807529314,
+        "stop" : 1664807529314,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e1543635e097647a",
+      "name" : "cypress/e2e/telnyx.cy.js:2022-10-03T14:32:09.081Z",
+      "source" : "e1543635e097647a.png",
+      "type" : "image/png",
+      "size" : 319461
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 54,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Actions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "3d3471f399114f7d",
+        "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/11//#testresult/3d3471f399114f7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1664020247094,
+          "stop" : 1664020262565,
+          "duration" : 15471
+        }
+      }, {
+        "uid" : "2d2a3078586c6858",
+        "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/10//#testresult/2d2a3078586c6858",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 20000ms: expected '<h1.Text-sc-5o8owa-0.sc-1e9319a3-4.gkWopw.gjiitA>' to have text 'We\\'ve sent you an email to activate your account', but the text was 'Create a free account'",
+        "time" : {
+          "start" : 1664019998619,
+          "stop" : 1664020026123,
+          "duration" : 27504
+        }
+      }, {
+        "uid" : "929f786e084b49dd",
+        "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/9//#testresult/929f786e084b49dd",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 20000ms: expected '<h1.Text-sc-5o8owa-0.sc-1e9319a3-4.gkWopw.gjiitA>' to have text 'We\\'ve sent you an email to activate your account', but the text was 'Create a free account'",
+        "time" : {
+          "start" : 1664019784531,
+          "stop" : 1664019810712,
+          "duration" : 26181
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d7edf75b366382a0.json",
+  "parameterValues" : [ ]
+}

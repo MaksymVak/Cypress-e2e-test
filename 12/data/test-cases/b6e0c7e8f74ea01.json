@@ -1,0 +1,767 @@
+{
+  "uid" : "b6e0c7e8f74ea01",
+  "name" : "TC-08 Checking the Marketplace",
+  "fullName" : "TC-08 Checking the Marketplace",
+  "historyId" : "afc8093b35cf38a62fc0a903f9bb6200",
+  "time" : {
+    "start" : 1664807576004,
+    "stop" : 1664807582569,
+    "duration" : 6565
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1664807576005,
+        "stop" : 1664807577561,
+        "duration" : 1556
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://telnyx.com/",
+        "time" : {
+          "start" : 1664807576223,
+          "stop" : 1664807577557,
+          "duration" : 1334
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 202 https://sessions.bugsnag.com/",
+        "time" : {
+          "start" : 1664807577557,
+          "stop" : 1664807577557,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 202 https://sessions.bugsnag.com/",
+        "time" : {
+          "start" : 1664807577557,
+          "stop" : 1664807577557,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://cdn.segment.com/v1/projects/ZJF0glU6NoKycjhoQqez4gAkisp7igJx/settings",
+        "time" : {
+          "start" : 1664807577557,
+          "stop" : 1664807577557,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /_next/data/pGRAx6_Q7kwgH1ePsZHp6/index.json",
+        "time" : {
+          "start" : 1664807577557,
+          "stop" : 1664807577557,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j97&tid=UA-52431503-5&cid=626266457.1664807577&jid=244053402&gjid=378937739&_gid=1868055021.1664807577&_u=aGBAgEAjAAAAAE~&z=965598019",
+        "time" : {
+          "start" : 1664807577557,
+          "stop" : 1664807577557,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://api.segment.io/v1/p",
+        "time" : {
+          "start" : 1664807577557,
+          "stop" : 1664807577557,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://assets.telnyx.com/_next/static/css/999735718d407326.css",
+        "time" : {
+          "start" : 1664807577557,
+          "stop" : 1664807577557,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://api-iam.intercom.io/messenger/web/ping",
+        "time" : {
+          "start" : 1664807577557,
+          "stop" : 1664807577557,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get body",
+        "time" : {
+          "start" : 1664807577557,
+          "stop" : 1664807577560,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 10,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get header",
+      "time" : {
+        "start" : 1664807577563,
+        "stop" : 1664807577585,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "realHover",
+      "time" : {
+        "start" : 1664807577585,
+        "stop" : 1664807577678,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://i.clarity.ms/collect",
+      "time" : {
+        "start" : 1664807577678,
+        "stop" : 1664807577678,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get span",
+      "time" : {
+        "start" : 1664807577678,
+        "stop" : 1664807577853,
+        "duration" : 175
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains Company",
+      "time" : {
+        "start" : 1664807577853,
+        "stop" : 1664807577877,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "realHover",
+      "time" : {
+        "start" : 1664807577877,
+        "stop" : 1664807577981,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get li span",
+      "time" : {
+        "start" : 1664807577981,
+        "stop" : 1664807578118,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains Integrations",
+      "time" : {
+        "start" : 1664807578118,
+        "stop" : 1664807578147,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1664807578147,
+        "stop" : 1664807578398,
+        "duration" : 251
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page load --waiting for new page to load--",
+      "time" : {
+        "start" : 1664807578398,
+        "stop" : 1664807578398,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /_next/data/pGRAx6_Q7kwgH1ePsZHp6/integrations.json?slug=integrations",
+      "time" : {
+        "start" : 1664807578398,
+        "stop" : 1664807578398,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "new url https://telnyx.com/integrations",
+      "time" : {
+        "start" : 1664807578398,
+        "stop" : 1664807579673,
+        "duration" : 1275
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 202 https://sessions.bugsnag.com/",
+      "time" : {
+        "start" : 1664807579673,
+        "stop" : 1664807579673,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 202 https://sessions.bugsnag.com/",
+      "time" : {
+        "start" : 1664807579673,
+        "stop" : 1664807579673,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://cdn.segment.com/v1/projects/ZJF0glU6NoKycjhoQqez4gAkisp7igJx/settings",
+      "time" : {
+        "start" : 1664807579673,
+        "stop" : 1664807579673,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://api.segment.io/v1/p",
+      "time" : {
+        "start" : 1664807579673,
+        "stop" : 1664807579673,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://api-iam.intercom.io/messenger/web/ping",
+      "time" : {
+        "start" : 1664807579673,
+        "stop" : 1664807579673,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get [href=\"https://marketplace.telnyx.com\"]",
+      "time" : {
+        "start" : 1664807579673,
+        "stop" : 1664807579673,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains Explore Our Marketplace",
+      "time" : {
+        "start" : 1664807579673,
+        "stop" : 1664807579690,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "realHover",
+      "time" : {
+        "start" : 1664807579690,
+        "stop" : 1664807579728,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get [href=\"https://marketplace.telnyx.com\"]",
+      "time" : {
+        "start" : 1664807579728,
+        "stop" : 1664807579750,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains Explore Our Marketplace",
+      "time" : {
+        "start" : 1664807579750,
+        "stop" : 1664807579768,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1664807579768,
+        "stop" : 1664807580053,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 204 https://i.clarity.ms/collect",
+      "time" : {
+        "start" : 1664807580053,
+        "stop" : 1664807580053,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page load --waiting for new page to load--",
+      "time" : {
+        "start" : 1664807580053,
+        "stop" : 1664807580053,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 204 https://i.clarity.ms/collect",
+      "time" : {
+        "start" : 1664807580053,
+        "stop" : 1664807582560,
+        "duration" : 2507
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "new url https://marketplace.telnyx.com/",
+      "time" : {
+        "start" : 1664807582559,
+        "stop" : 1664807582559,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://sessions.bugsnag.com/",
+      "time" : {
+        "start" : 1664807582559,
+        "stop" : 1664807582559,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://sessions.bugsnag.com/",
+      "time" : {
+        "start" : 1664807582560,
+        "stop" : 1664807582560,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://z3n3roeoke-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia for JavaScript (4.13.1); Browser (lite); JS Helper (3.10.0); react (17.0.2); react-instantsearch (6.30.0)&x-algolia-api-key=675f59d8284a9c3e9cace8b2ddfbe4b0&x-algolia-application-id=Z3N3ROEOKE",
+      "time" : {
+        "start" : 1664807582560,
+        "stop" : 1664807582560,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get h1",
+      "time" : {
+        "start" : 1664807582560,
+        "stop" : 1664807582560,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<h1>** to have text **Welcome to the Telnyx Integration Marketplace**",
+      "time" : {
+        "start" : 1664807582560,
+        "stop" : 1664807582560,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Welcome to the Telnyx Integration Marketplace"
+      }, {
+        "name" : "expected",
+        "value" : "Welcome to the Telnyx Integration Marketplace"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "url",
+      "time" : {
+        "start" : 1664807582560,
+        "stop" : 1664807582569,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **https://marketplace.telnyx.com/** to include **marketplace**",
+      "time" : {
+        "start" : 1664807582569,
+        "stop" : 1664807582569,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "https://marketplace.telnyx.com/"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 45,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Actions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "f2503bdc3940612e",
+        "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/11//#testresult/f2503bdc3940612e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1664020302185,
+          "stop" : 1664020308827,
+          "duration" : 6642
+        }
+      }, {
+        "uid" : "26a081c33245592c",
+        "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/10//#testresult/26a081c33245592c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1664020068823,
+          "stop" : 1664020074814,
+          "duration" : 5991
+        }
+      }, {
+        "uid" : "6bd9a8a8fc475b78",
+        "reportUrl" : "https://MaksymVak.github.io/Cypress-e2e-test/9//#testresult/6bd9a8a8fc475b78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1664019850945,
+          "stop" : 1664019857044,
+          "duration" : 6099
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b6e0c7e8f74ea01.json",
+  "parameterValues" : [ ]
+}

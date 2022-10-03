@@ -1,0 +1,101 @@
+[ {
+  "uid" : "6114133e63dff78f",
+  "name" : "TC-09 Sending a message using a function Talk to an expert",
+  "time" : {
+    "start" : 1664807582633,
+    "stop" : 1664807602716,
+    "duration" : 20083
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "25733ae28aeaa595",
+  "name" : "TC-07 Checking the Savings Calculator",
+  "time" : {
+    "start" : 1664807568256,
+    "stop" : 1664807575924,
+    "duration" : 7668
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6e0c7e8f74ea01",
+  "name" : "TC-08 Checking the Marketplace",
+  "time" : {
+    "start" : 1664807576004,
+    "stop" : 1664807582569,
+    "duration" : 6565
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7edf75b366382a0",
+  "name" : "TC-02 Registration on the website with valid email",
+  "time" : {
+    "start" : 1664807501565,
+    "stop" : 1664807529315,
+    "duration" : 27750
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "27243c8c250e3147",
+  "name" : "TC-04 Password reset",
+  "time" : {
+    "start" : 1664807545136,
+    "stop" : 1664807553187,
+    "duration" : 8051
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da049b5ad48fa127",
+  "name" : "TC-03 Authorization on the website",
+  "time" : {
+    "start" : 1664807529382,
+    "stop" : 1664807545009,
+    "duration" : 15627
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f369b643d918836",
+  "name" : "TC-01 Registration on the website with invalid email",
+  "time" : {
+    "start" : 1664807478688,
+    "stop" : 1664807501505,
+    "duration" : 22817
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62f82fd7ba705098",
+  "name" : "TC-10 Products section check",
+  "time" : {
+    "start" : 1664807602749,
+    "stop" : 1664807607723,
+    "duration" : 4974
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad17aafb12254b9",
+  "name" : "TC-06 Careers section check",
+  "time" : {
+    "start" : 1664807562544,
+    "stop" : 1664807568214,
+    "duration" : 5670
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af72c86b937a623f",
+  "name" : "TC-05 Voice Api section check",
+  "time" : {
+    "start" : 1664807553209,
+    "stop" : 1664807562420,
+    "duration" : 9211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

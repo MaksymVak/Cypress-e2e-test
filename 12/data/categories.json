@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 20000ms: expected '<h1.Text-sc-5o8owa-0.sc-1e9319a3-4.gkWopw.gjiitA>' to have text 'We\\'ve sent you an email to activate your account', but the text was 'Create a free account'",
+      "children" : [ {
+        "name" : "TC-02 Registration on the website with valid email",
+        "uid" : "d7edf75b366382a0",
+        "parentUid" : "5131fe760760bfc3d9412c5354fa3c6e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1664807501565,
+          "stop" : 1664807529315,
+          "duration" : 27750
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5131fe760760bfc3d9412c5354fa3c6e"
+    }, {
+      "name" : "Timed out retrying after 10000ms: Expected to find element: `#mktoCheckbox_10173_0`, but never found it.",
+      "children" : [ {
+        "name" : "TC-09 Sending a message using a function Talk to an expert",
+        "uid" : "6114133e63dff78f",
+        "parentUid" : "3ca97b9fa17f7537cbd8b9674cff973d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1664807582633,
+          "stop" : 1664807602716,
+          "duration" : 20083
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3ca97b9fa17f7537cbd8b9674cff973d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
